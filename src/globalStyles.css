@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+:root {
+  --accent: #1a095a;
+  --accent_light: #e8eaff;
+  --black: #000000;
+  --white: #ffffff;
+  --purple: #45286c;
+  --grey_light: #c4c4c4;
+  --grey_dark: #424242;
+  --green: #e1ffca;
+  --incorrect_answer: #ff4949;
+  --correct_answer: #a6ee6d;
+
+  --font_mont: 'Montserrat';
+  --font_dm: 'DM Sans';
+}

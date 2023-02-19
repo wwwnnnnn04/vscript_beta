@@ -1,0 +1,30 @@
+@import url('../../globalStyles.css');
+
+.container {
+  width: 237px;
+  display: flex;
+  justify-content: space-between;
+}
+.but {
+  border: 1.13px solid var(--purple);
+  border-radius: 40px;
+  font-family: var(--font_mont);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+.but_registration {
+  width: 128px;
+  height: 33px;
+  color: var(--black);
+}
+.but_login {
+  width: 100px;
+  height: 33px;
+  background-color: var(--purple);
+  color: var(--white);
+}
+.svg {
+  background-color: var(--purple);
+  margin-right: 4px;
+}
