@@ -3,6 +3,7 @@
 .container {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 .logo_container {
@@ -98,7 +99,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 36px;
-  line-height: 44px;
+  line-height: 43px;
   text-align: center;
   color: var(--black);
   margin-top: 74px;

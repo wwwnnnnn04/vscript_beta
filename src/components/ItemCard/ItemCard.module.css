@@ -1,0 +1,19 @@
+.line {
+  border: 2px var(--white) solid;
+  width: 80%;
+  margin-top: 45px;
+}
+.h {
+  font-family: var(--font_mont);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 33px;
+  margin-top: 30px;
+}
+.info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

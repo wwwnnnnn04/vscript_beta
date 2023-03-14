@@ -1,0 +1,36 @@
+@import url('../../globalStyles.css');
+
+.container {
+  width: 90%;
+  height: 787px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 74px;
+}
+
+.card {
+  width: 622px;
+  height: 786px;
+  border-radius: 10px;
+  background-color: var(--purple);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  background-color: var(--purple);
+  font-family: var(--font_dm);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 83px;
+  text-align: center;
+  margin-top: 45px;
+}
+.line {
+  border: 2px var(--white) solid;
+  width: 80%;
+  margin-top: 45px;
+}

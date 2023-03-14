@@ -1,13 +1,13 @@
 import { Route, Routes } from 'react-router-dom';
-import Test from './components/Header/Test';
-import Home from './pages/Home/Home';
+import Home from './pages/Home/Home.jsx';
+import CourseGallery from './pages/courseGallery/CourseGallery.jsx';
 
 function App() {
   return (
     <Routes>
-      <Route path='/' element={<Home />}>
-        {/* <Route index element={<Home />} /> */}
-        <Route path='test' element={<Test />} />
+      <Route>
+        <Route index element={<Home />} />
+        <Route path='courseGallery' element={<CourseGallery />} />
       </Route>
     </Routes>
   );
