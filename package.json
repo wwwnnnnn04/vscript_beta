@@ -6,12 +6,17 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@videojs/themes": "^1.0.1",
+    "axios": "^1.4.0",
     "nuka-carousel": "^5.4.1",
+    "primereact": "^9.4.0",
     "react": "^18.2.0",
+    "react-avatar-edit": "^1.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.2",
     "react-scripts": "5.0.1",
     "react-slidy": "^4.3.3",
+    "sass": "^1.62.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -37,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "video.js": "^8.3.0"
   }
 }

@@ -1,0 +1,17 @@
+.container {
+  width: 90%;
+  margin-left: 52px;
+  margin-top: 45px;
+}
+.span {
+  font-family: var(--font_mont);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  color: var(--black);
+}
+.course {
+  overflow-y: scroll;
+  height: 85vh;
+}

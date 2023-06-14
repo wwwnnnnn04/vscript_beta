@@ -1,0 +1,13 @@
+.box {
+  margin-top: 66px;
+  margin-left: 49px;
+  width: 70%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.info {
+  width: 100%;
+  margin-left: 10px;
+}

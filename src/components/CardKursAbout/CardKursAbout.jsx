@@ -43,7 +43,7 @@ const CardKursAbout = () => {
             </i>
             <ItemCard item={item.item} bgColor={item.bgColor} />
             <hr className={s.line} />
-            <ButtonCard />
+            {/* <ButtonCard /> */}
           </div>
         );
       })}

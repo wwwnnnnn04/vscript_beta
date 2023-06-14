@@ -1,10 +1,4 @@
 @import url('../../globalStyles.css');
-
-.container {
-  width: 237px;
-  display: flex;
-  justify-content: space-between;
-}
 .but {
   border: 1.13px solid var(--purple);
   border-radius: 40px;
@@ -12,11 +6,6 @@
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-}
-.but_registration {
-  width: 128px;
-  height: 33px;
-  color: var(--black);
 }
 .but_login {
   width: 100px;
@@ -27,4 +16,49 @@
 .svg {
   background-color: var(--purple);
   margin-right: 4px;
+}
+.container {
+  width: 313px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  font-family: var(--font_mont);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 62px;
+  color: var(--black);
+  margin-top: 73px;
+}
+.box {
+  width: 100%;
+  margin-top: 41px;
+}
+.inp {
+  width: 100%;
+  border-bottom: 1px solid black;
+  font-family: var(--font_mont);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--grey_dark);
+  height: 25px;
+  margin-bottom: 31px;
+}
+.log {
+  width: 138px;
+  height: 45px;
+  background-color: var(--purple);
+  border-radius: 70px;
+  font-family: var(--font_mont);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: var(--white);
+  margin-bottom: 73px;
 }

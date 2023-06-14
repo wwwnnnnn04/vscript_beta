@@ -1,0 +1,183 @@
+{
+  "users": [
+    {
+      "id_user": 0,
+      "user_login": "renata@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id_user": 1,
+      "user_login": "test@gmail.com",
+      "password": "12345"
+    }
+  ],
+  "courses": [
+    {
+      "id_course": 0,
+      "name_course": "Frontend разработка - для новичков",
+      "lessons": [
+        {
+          "id_lesson": 0,
+          "name_lesson": "Как проходить курс",
+          "card_lesson": [
+            {
+              "id_card": 0,
+              "name_card": "Инструкция",
+              "content": "В каждом уроке есть 3-6 видео с теорией. В них объясняется теоретический и практический материал, чтобы получилось выполнить все задачи урока. После каждого видео идут карточки с вопросами и задачами, весь код из карточек с задачами необходимо переписать себе, а где-то надо написать код самостоятельно."
+            }
+          ]
+        },
+        {
+          "id_lesson": 1,
+          "name_lesson": "Введение в HTML",
+          "card_lesson": [
+            {
+              "id_card": 0,
+              "name_card": "Содержание урока",
+              "content": "Узнаем, что такое веб–разработка. Познакомимся с HTML. Добавим структуру html–документа. Узнаем, какие существуют виды сайтов."
+            },
+            {
+              "id_card": 1,
+              "name_card": "HTML теги",
+              "content": "Сделай проверку своих знаний"
+            },
+            {
+              "id_card": 2,
+              "name_card": "Что такое CSS",
+              "content": "Посмотри видео",
+              "url_video": "../../assets/video/lesson1.mkv"
+            }
+          ]
+        },
+        {
+          "id_lesson": 2,
+          "name_lesson": "Блочные элементы",
+          "card_lesson": [
+            {
+              "id_card": 0,
+              "name_card": "HTML теги",
+              "content": "Посмотри видео",
+              "url_video": "../../assets/video/lesson1.mkv"
+            },
+            {
+              "id_card": 1,
+              "name_card": "HTML теги",
+              "content": "Посмотри видео",
+              "url_video": "../../assets/video/lesson1.mkv"
+            },
+            {
+              "id_card": 2,
+              "name_card": "Что такое CSS",
+              "content": "Посмотри видео",
+              "url_video": "../../assets/video/lesson1.mkv"
+            }
+          ]
+        },
+        {
+          "id_lesson": 3,
+          "name_lesson": "Позиционирование",
+          "card_lesson": [
+            {
+              "id_card": 0,
+              "name_card": "Содержание урока",
+              "content": "Узнаем, что такое блочные элементы. В чем разница между "
+            },
+            {
+              "id_card": 1,
+              "name_card": "HTML теги",
+              "content": "Посмотри видео",
+              "url_video": "../../assets/video/lesson1.mkv"
+            },
+            {
+              "id_card": 2,
+              "name_card": "Что такое CSS",
+              "content": "Посмотри видео",
+              "url_video": "../../assets/video/lesson1.mkv"
+            }
+          ]
+        },
+        {
+          "id_lesson": 4,
+          "name_lesson": "Формы",
+          "card_lesson": [
+            {
+              "id_card": 0,
+              "name_card": "Содержание урока",
+              "content": "Узнаем, что такое блочные элементы. В чем разница между "
+            },
+            {
+              "id_card": 1,
+              "name_card": "HTML теги",
+              "content": "Посмотри видео",
+              "url_video": "../../assets/video/lesson1.mkv"
+            },
+            {
+              "id_card": 2,
+              "name_card": "Что такое CSS",
+              "content": "Посмотри видео",
+              "url_video": "../../assets/video/lesson1.mkv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id_course": 1,
+      "name_course": "Python - для новичков",
+      "lessons": [
+        {
+          "id_lesson": 0,
+          "name_lesson": "Как проходить курс",
+          "card_lesson": [
+            {
+              "id_card": 0,
+              "name_card": "Инструкция",
+              "content": "В каждом уроке есть 3-6 видео с теорией. В них объясняется теоретический и практический материал, чтобы получилось выполнить все задачи урока. После каждого видео идут карточки с вопросами и задачами, весь код из карточек с задачами необходимо переписать себе, а где-то надо написать код самостоятельно."
+            }
+          ]
+        },
+        {
+          "id_lesson": 1,
+          "name_lesson": "Вывод данных",
+          "card_lesson": [
+            {
+              "id_card": 0,
+              "name_card": "Содержание урока",
+              "content": "Задачи на урок. Узнаем, что такое веб–разработка. Познакомимся с HTML. Добавим структуру html–документа.Узнаем, какие существуют виды сайтов."
+            },
+            {
+              "id_card": 1,
+              "name_card": "Функция print()",
+              "content": "Посмотри видео. Повтори в своём проекте",
+              "url_video": "../../assets/video/lesson1.mkv"
+            },
+            {
+              "id_card": 2,
+              "name_card": "Функция print()",
+              "content": "Посмотри видео. Повтори в своём проекте",
+              "url_video": "../../assets/video/lesson1.mkv"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "info": [
+    {
+      "name_course_first": "Frontend",
+      "name_course_last": "для новичков"
+    },
+    {
+      "name_course_first": "JavaScript",
+      "name_course_last": "для новичков"
+    },
+    {
+      "name_course_first": "Python",
+      "name_course_last": "для новичков"
+    },
+    {
+      "name_course_first": "React.js",
+      "name_course_last": ""
+    }
+  ]
+}

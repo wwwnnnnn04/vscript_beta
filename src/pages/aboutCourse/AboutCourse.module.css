@@ -1,0 +1,11 @@
+.body {
+  width: 100%;
+  height: 761px;
+  background-image: url('../../assets/svg/fon_course.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 100% 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

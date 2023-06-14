@@ -7,4 +7,11 @@
   color: var(--purple);
   align-items: center;
   justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0);
+}
+.but {
+  width: 237px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
 }

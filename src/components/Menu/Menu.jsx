@@ -16,7 +16,7 @@ const Menu = () => {
       <NavLink to='/courseGallery' className={s.link} style={linkStyle}>
         Курсы
       </NavLink>
-      <NavLink to='/test' className={s.link} style={linkStyle}>
+      <NavLink to='/courseGalleryKids' className={s.link} style={linkStyle}>
         Детям
       </NavLink>
     </div>

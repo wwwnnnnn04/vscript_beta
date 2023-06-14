@@ -1,0 +1,43 @@
+.container {
+  width: 377px;
+  background-color: var(--purple);
+  height: 100vh;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  /* border: 1px solid red; */
+  /* margin-top: 36px; */
+  padding-top: 36px;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo_name {
+  font-family: var(--font_dm);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: var(--white);
+}
+.profile_img {
+  width: 52px;
+  height: 52px;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 289px;
+  margin-left: 75px;
+  margin-top: 42px;
+}
+
+.link {
+  font-family: var(--font_mont);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 23px;
+}

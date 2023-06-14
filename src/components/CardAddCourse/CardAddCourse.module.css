@@ -1,0 +1,41 @@
+.container {
+  width: 90%;
+  height: 280px;
+  background-color: var(--accent_light);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+.span {
+  font-family: var(--font_mont);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 32px;
+  color: var(--black);
+}
+
+.but {
+  border-radius: 15px;
+  background-color: var(--white);
+  width: 329px;
+  height: 69px;
+  font-family: var(--font_mont);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  cursor: pointer;
+  color: var(--black);
+}
+.less {
+  font-family: var(--font_mont);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 32px;
+  color: var(--grey_dark);
+}

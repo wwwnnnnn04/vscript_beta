@@ -16,3 +16,11 @@
   --font_mont: 'Montserrat';
   --font_dm: 'DM Sans';
 }
+
+.video-js {
+  width: 300px;
+  height: auto;
+  aspect-ratio: 16/9;
+  display: block;
+  margin: 0 auto;
+}

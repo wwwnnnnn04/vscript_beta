@@ -1,0 +1,56 @@
+.box {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.name {
+  font-family: var(--font_mont);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  color: var(--black);
+  margin-left: 45px;
+}
+.link_back {
+  width: 33px;
+}
+.head {
+  width: 100%;
+  margin-top: 49px;
+  border-bottom: 1px solid var(--accent_light);
+  padding-bottom: 18px;
+}
+.carusel {
+  width: max-content;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.num {
+  font-family: var(--font_mont);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--purple);
+  margin-left: 14px;
+  margin-right: 14px;
+}
+.span {
+  font-family: var(--font_mont);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--purple);
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.but {
+  cursor: pointer;
+}
